@@ -1,0 +1,203 @@
+[
+  {
+    "type": "general_topic",
+    "topic": "Definition of Jawi Script",
+    "content": "Jawi script is a variant of the Arabic script consisting of 35 characters. It includes the 29 original Arabic characters plus 6 additional characters created to accommodate sounds in the Malay language. Jawi script is written from right to left and is one of the oldest writing systems in the Malay Archipelago."
+  },
+  {
+    "type": "general_topic",
+    "topic": "Brief History of Jawi Script",
+    "content": "Jawi script developed concurrently with the arrival of Islam in the Malay Archipelago around the 13th century. The oldest evidence of its use is found on the Terengganu Inscription Stone, dated 1303 AD. The script reached its peak from the 17th to the early 20th century, used in royal administration, literature, and education before its role was largely replaced by the Rumi (Latin) script."
+  },
+  {
+    "type": "general_topic",
+    "topic": "Writing Rules: Connection Rules",
+    "content": "Most Jawi letters can be connected at the beginning, middle, and end of a word. However, some letters cannot be connected to the letter that follows them: Alif (ا), Wau (و), Va (ۏ), Dal (د), Zal (ذ), Ra (ر), and Zai (ز). After these letters, the word is 'broken,' and the next letter is written in its isolated form."
+  },
+  {
+    "type": "general_topic",
+    "topic": "Writing Rules: Vowel System",
+    "content": "In Jawi writing, vowels are often represented by 'vowel letters' (huruf saksi). The letter Alif (ا) is used for the 'a' vowel, the letter Wau (و) for 'u' and 'o' vowels, and the letter Ya (ي) for 'i' and 'e' vowels. The use of these vowel letters follows a set of complex rules."
+  },
+  {
+    "type": "general_topic",
+    "topic": "Unique Additional Jawi Letters",
+    "content": "There are 6 additional letters created to accommodate Malay sounds that do not exist in Arabic. These letters are Ca (چ), Nga (ڠ), Pa (ڤ), Ga (ݢ), Va (ۏ), and Nya (ڽ). These six letters have different forms depending on their position in a word."
+  },
+  {
+    "type": "letter",
+    "name": "Ca Isolated",
+    "character": "چ",
+    "info": "The isolated form of the letter Ca (چ). It is one of the 6 additional Jawi letters used for the 'c' sound, as in the word 'cahaya' (light).",
+    "latin_example": "cahaya",
+    "jawi_example": "چهاي"
+  },
+  {
+    "type": "letter",
+    "name": "Ca Initial",
+    "character": "چـ",
+    "info": "The initial (start) form of the letter Ca (چ). An example of its use is in the word 'cerita' (story).",
+    "latin_example": "cerita",
+    "jawi_example": "چريتا"
+  },
+  {
+    "type": "letter",
+    "name": "Ca Medial",
+    "character": "ـچـ",
+    "info": "The medial (middle) form of the letter Ca (چ). An example of its use is in the word 'baca' (read).",
+    "latin_example": "baca",
+    "jawi_example": "باچ"
+  },
+  {
+    "type": "letter",
+    "name": "Ca Final",
+    "character": "ـچ",
+    "info": "The final (end) form of the letter Ca (چ). An example of its use is in the word 'kaca' (glass).",
+    "latin_example": "kaca",
+    "jawi_example": "كاچ"
+  },
+  {
+    "type": "letter",
+    "name": "Ga Isolated",
+    "character": "ݢ",
+    "info": "The isolated form of the letter Ga (ݢ). It is one of the 6 additional Jawi letters used for the 'g' sound, as in the word 'guli' (marbles).",
+    "latin_example": "guli",
+    "jawi_example": "ݢولي"
+  },
+  {
+    "type": "letter",
+    "name": "Ga Initial",
+    "character": "ݢـ",
+    "info": "The initial (start) form of the letter Ga (ݢ). An example of its use is in the word 'gajah' (elephant).",
+    "latin_example": "gajah",
+    "jawi_example": "ݢاجه"
+  },
+  {
+    "type": "letter",
+    "name": "Ga Medial",
+    "character": "ـݢـ",
+    "info": "The medial (middle) form of the letter Ga (ݢ). An example of its use is in the word 'tiga' (three).",
+    "latin_example": "tiga",
+    "jawi_example": "تيݢا"
+  },
+  {
+    "type": "letter",
+    "name": "Ga Final",
+    "character": "ـݢ",
+    "info": "The final (end) form of the letter Ga (ݢ). An example of its use is in the word 'beg' (bag).",
+    "latin_example": "beg",
+    "jawi_example": "بيݢ"
+  },
+  {
+    "type": "letter",
+    "name": "Nga Isolated",
+    "character": "ڠ",
+    "info": "The isolated form of the letter Nga (ڠ). It is one of the 6 additional Jawi letters used for the 'ng' sound, as in the word 'nganga' (agape).",
+    "latin_example": "nganga",
+    "jawi_example": "ڠاڠا"
+  },
+  {
+    "type": "letter",
+    "name": "Nga Initial",
+    "character": "ڠـ",
+    "info": "The initial (start) form of the letter Nga (ڠ). An example of its use is in the word 'ngaji' (recite).",
+    "latin_example": "ngaji",
+    "jawi_example": "ڠاجي"
+  },
+  {
+    "type": "letter",
+    "name": "Nga Medial",
+    "character": "ـڠـ",
+    "info": "The medial (middle) form of the letter Nga (ڠ). An example of its use is in the word 'pangan' (food).",
+    "latin_example": "pangan",
+    "jawi_example": "ڤاڠن"
+  },
+  {
+    "type": "letter",
+    "name": "Nga Final",
+    "character": "ـڠ",
+    "info": "The final (end) form of the letter Nga (ڠ). An example of its use is in the word 'senang' (happy).",
+    "latin_example": "senang",
+    "jawi_example": "سنڠ"
+  },
+  {
+    "type": "letter",
+    "name": "Nya Isolated",
+    "character": "ڽ",
+    "info": "The isolated form of the letter Nya (ڽ). It is one of the 6 additional Jawi letters used for the 'ny' sound, as in the word 'nyanyi' (sing).",
+    "latin_example": "nyanyi",
+    "jawi_example": "ڽاڽي"
+  },
+  {
+    "type": "letter",
+    "name": "Nya Initial",
+    "character": "ڽـ",
+    "info": "The initial (start) form of the letter Nya (ڽ). An example of its use is in the word 'nyamuk' (mosquito).",
+    "latin_example": "nyamuk",
+    "jawi_example": "ڽاموق"
+  },
+  {
+    "type": "letter",
+    "name": "Nya Medial",
+    "character": "ـڽـ",
+    "info": "The medial (middle) form of the letter Nya (ڽ). An example of its use is in the word 'banyak' (many).",
+    "latin_example": "banyak",
+    "jawi_example": "باڽق"
+  },
+  {
+    "type": "letter",
+    "name": "Nya Final",
+    "character": "ـڽ",
+    "info": "The final (end) form of the letter Nya (ڽ). An example of its use is in the word 'sunyi' (silent).",
+    "latin_example": "sunyi",
+    "jawi_example": "سوڽي"
+  },
+  {
+    "type": "letter",
+    "name": "Pa Isolated",
+    "character": "ڤ",
+    "info": "The isolated form of the letter Pa (ڤ). It is one of the 6 additional Jawi letters used for the 'p' sound, as in the word 'pasu' (vase).",
+    "latin_example": "pasu",
+    "jawi_example": "ڤاسو"
+  },
+  {
+    "type": "letter",
+    "name": "Pa Initial",
+    "character": "ڤـ",
+    "info": "The initial (start) form of the letter Pa (ڤ). An example of its use is in the word 'pagi' (morning).",
+    "latin_example": "pagi",
+    "jawi_example": "ڤاݢي"
+  },
+  {
+    "type": "letter",
+    "name": "Pa Medial",
+    "character": "ـڤـ",
+    "info": "The medial (middle) form of the letter Pa (ڤ). An example of its use is in the word 'sapu' (sweep).",
+    "latin_example": "sapu",
+    "jawi_example": "ساڤو"
+  },
+  {
+    "type": "letter",
+    "name": "Pa Final",
+    "character": "ـڤ",
+    "info": "The final (end) form of the letter Pa (ڤ). An example of its use is in the word 'atap' (roof).",
+    "latin_example": "atap",
+    "jawi_example": "اتڤ"
+  },
+  {
+    "type": "letter",
+    "name": "Va Isolated",
+    "character": "ۏ",
+    "info": "The isolated form of the letter Va (ۏ). It is one of the 6 additional Jawi letters used for the 'v' sound, as in loanwords like 'video'.",
+    "latin_example": "video",
+    "jawi_example": "ۏيديو"
+  },
+  {
+    "type": "letter",
+    "name": "Va Final",
+    "character": "ـۏ",
+    "info": "The final (end) form of the letter Va (ۏ). As it cannot be connected to a following letter, this form only appears at the end of a word, for example in loanwords like 'bravo'.",
+    "latin_example": "bravo",
+    "jawi_example": "براۏو"
+  }
+]
