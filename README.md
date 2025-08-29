@@ -15,10 +15,10 @@
 * **Use the Sample Images:** To make testing easy, you can download and use the sample images provided in the **[`/test_images`](https://github.com/HafizRinaldi/jawi-app/tree/main/test_images)** folder in this repository.
 * **Focus on a Single Letter:** Please note that the model is designed to detect **one single Jawi letter** per image. It will not produce accurate results for images containing full words or sentences.
 * **Ensure the Image is Clear:** For the best results, make sure the Jawi letter is clear and is the main subject of the image.
+  
+---
 
 # JawiAI: AI-Powered Jawi Script Detection & Tutor
-
----
 
 An AI-Powered Mobile Application by **[M Hafiz Rinaldi](https://www.linkedin.com/in/m-hafiz-rinaldi/)**
 
