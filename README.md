@@ -105,7 +105,7 @@ Here are the complete details:
 
 Beyond factual lookups on detected letters, the AI Tutor excels at creative and conversational tasks. This allows you to use JawiAI not just as a detection tool, but as a dynamic language-learning partner.
 
-> For the most authentic and relevant results, we recommend writing your prompts in *Malay/Indonesian*. Since Jawi is the script for the Malay language, asking for '*contoh*' (examples) in its native language will give you the best responses from the AI.
+> For the most authentic and relevant results, we recommend writing your prompts in *Malay/Indonesian*. Since Jawi is the script for the Malay language, asking for '*contoh*' (examples) in its native language will give you the best responses from the AI. However, the AI tutor is also fluent in English and will respond to prompts in either language.
 
 Here are some examples of prompts you can try in the **Smart AI Chat**:
 
@@ -125,8 +125,6 @@ Here are some examples of prompts you can try in the **Smart AI Chat**:
 * **For Creative Writing:**
     Challenge the AI to help you write something new, like a simple phrase or a traditional poem (pantun).
     > **Example Prompt:** `Tuliskan pantun dua baris sederhana tentang matahari dalam tulisan Jawi dan Rumi.`
-
----
 
 ## 🛠️ Technology Stack & Architecture
 
