@@ -12,6 +12,8 @@
 
 # JawiAI: AI-Powered Jawi Script Detection & Tutor
 
+An AI-Powered Mobile Application by **[M Hafiz Rinaldi](https://www.linkedin.com/in/m-hafiz-rinaldi/)**
+
 ![JawiAI Demo GIF](docs/jawi_demo.gif)
 
 **JawiAI** is a full-stack andorid mobile application that uses on-device machine learning and a sophisticated cloud-based Large Language Model (LLM) to recognize handwritten Jawi script and provide users with an interactive, AI-powered learning experience.
