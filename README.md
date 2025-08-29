@@ -41,7 +41,7 @@ This hybrid approach provides a fast, accurate, and deeply interactive learning 
 
 ## ✨ Detection Scope (22 Letter Forms)
 
-This application is specifically trained to recognize **22 forms** of the 6 unique, additional Jawi letters. This includes the variations of each letter's shape when it is in an isolated, initial, medial, and final position in a word.
+**Important:** This application is specifically trained to recognize **22 forms** of the 6 unique, additional Jawi letters. This includes the variations of each letter's shape when it is in an isolated, initial, medial, and final position in a word.
 
 <details>
 <summary><b>Click to see the full list of 22 supported letter forms</b></summary>
