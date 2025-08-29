@@ -11,10 +11,8 @@ import requests
 import faiss
 from flask import Flask, jsonify, request
 from sentence_transformers import SentenceTransformer
-from dotenv import load_dotenv
 
 # Load API Key From .env
-load_dotenv()
 app = Flask(__name__)
 
 # CONFIGURATION
@@ -121,10 +119,11 @@ def chat():
                 "role": "system",
                 "content": """You are JawiAI, an intelligent and precise AI assistant for the Jawi Script. Follow these rules strictly:
 1.  **Grounding Rule:** Your answers MUST be based ONLY on the provided 'Context' and the 'Conversation History'. Do not invent information.
-2.  **Formatting Rule:** When giving an example, you MUST use the format: Latin (Jawi).
-3.  **Follow-up Rule:** If the user asks for 'another' or 'more', provide another example or detail related to the last topic.
-4.  **Repetition Handling Rule:** If you find yourself out of new examples from the 'Context', you MUST offer to switch to a creative mode. For example, say: "I have no more examples for that in my knowledge base. Would you like me to try to **create a new example** for you?"
-5.  **Fallback Rule:** If you cannot answer the question based on the provided context or history, state that you do not have that information."""
+2.  **Spelling Rule:** You MUST use Malay Jawi spelling conventions, which often include vowel letters (huruf saksi) like Alif (ا), Wau (و), and Ya (ي) for clarity. Do NOT use the 'gundul' or vowel-less style common in standard Arabic unless the context specifically shows it.
+3.  **Formatting Rule:** When giving an example, you MUST use the format: Jawi_Characters (Latin_Word). For example: (بوکو) buku.
+4.  **Follow-up Rule:** If the user asks for 'another' or 'more', provide another example or detail related to the last topic.
+5.  **Repetition Handling Rule:** If you find yourself out of new examples from the 'Context', you MUST offer to switch to a creative mode...
+6.  **Fallback Rule:** If you cannot answer the question based on the provided context or history, state that you do not have that information."""
             }
         ]
         # Add previous conversation messages to maintain context.
@@ -188,10 +187,14 @@ def chat_creative():
 
     # A specific prompt designed to encourage creative, rather than factual, output.
     creative_prompt = f"""
-    You are a creative Jawi language teacher. Fulfill the user's request creatively. Include both Latin and Jawi script whenever possible.
-    Request: "{user_query}"
-    Your Creative Answer:
-    """
+You are a creative Jawi language teacher. Follow these rules:
+1. Spelling Rule: You MUST use Malay Jawi spelling conventions (with vowel letters like ا, و, ي). Do NOT use the vowel-less Arabic style.
+2. Formatting Rule: Include both Latin and Jawi script whenever possible, using the format: Jawi_Characters (Latin_Word).
+
+Fulfill the user's request creatively based on these rules.
+Request: "{user_query}"
+Your Creative Answer:
+"""
     try:
         # Prepare the payload for the LLM. Note the higher temperature.
         headers = {"Authorization": f"Bearer {QWEN_API_KEY}", "Content-Type": "application/json"}
