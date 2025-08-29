@@ -100,6 +100,34 @@ Here are the complete details:
 | **📖 In-App Guide** | A comprehensive help screen explains the app's features, the AI technology behind it, and how to use it effectively. | <img src="docs/help_screen.png" alt="Help Screen" width="200"/> |
 
 ---
+
+## 🤖 Creative Ways to Use the AI Tutor
+
+Beyond factual lookups on detected letters, the AI Tutor excels at creative and conversational tasks. This allows you to use JawiAI not just as a detection tool, but as a dynamic language-learning partner.
+
+> For the most authentic and relevant results, we recommend writing your prompts in *Malay/Indonesian*. Since Jawi is the script for the Malay language, asking for '*contoh*' (examples) in its native language will give you the best responses from the AI.
+
+Here are some examples of prompts you can try in the **Smart AI Chat**:
+
+* **For Translation:**
+    You can ask the AI to translate sentences from Rumi (Latin) to Jawi. This is perfect for learning how words are constructed.
+    > **Example Prompt:** `Tolong tuliskan "saya pergi ke pasar" dalam tulisan Jawi.`
+
+* **For Vocabulary and Word Examples:**
+    Ask for new words to expand your vocabulary or see how a specific letter is used in different contexts.
+    > **Example Prompt 1:** `Berikan tiga contoh perkataan Jawi yang berkaitan dengan 'keluarga'.`
+    > **Example Prompt 2:** `Buatkan satu ayat yang menggunakan huruf 'Nga' di akhir perkataan.`
+
+* **For Deeper Understanding:**
+    Ask for explanations about Jawi grammar, history, or specific writing rules.
+    > **Example Prompt:** `Jelaskan aturan kapan menggunakan huruf vokal 'Alif' dan kapan tidak.`
+
+* **For Creative Writing:**
+    Challenge the AI to help you write something new, like a simple phrase or a traditional poem (pantun).
+    > **Example Prompt:** `Tuliskan pantun dua baris sederhana tentang matahari dalam tulisan Jawi dan Rumi.`
+
+---
+
 ## 🛠️ Technology Stack & Architecture
 
 This project is a full-stack application leveraging modern technologies for both the mobile client and the AI backend.
