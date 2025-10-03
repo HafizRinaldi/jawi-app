@@ -286,4 +286,4 @@ The frontend is the mobile application.
 ---
 ## 👨‍💻 Project Author
 
-This entire project, including the **Flutter application**, the **Python backend server**, the **data augmentation process**, and the training of the **MobileNetV3 detection model**, was independently designed and built by **M Hafiz Rinaldi** as part of a technical assessment.
+This entire project, including the **Flutter application**, the **Python backend server**, the **data augmentation process**, and the training of the **MobileNetV3 detection model**, was independently designed and built by **M Hafiz Rinaldi**.
